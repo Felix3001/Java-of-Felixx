@@ -48,7 +48,6 @@ public class TargetObject {
         Method privateMethod = targetClass.getDeclaredMethod("privateMethod");
         privateMethod.setAccessible(true);
         privateMethod.invoke(targetObject);
-
     }
 
 
